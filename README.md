@@ -7,15 +7,11 @@
 - Fetches general system information.
 - Fetches BIOS and motherboard serials.
 - Fetches MAC addresses.
-- Fetches drive serials.
-- Customize the tool with different gradient themes.
-- Create your own custom themes.
-- Easy-to-use interface.
 
 # Source Features
 
+- Customize with preset gradient themes or make your own.
 - Rebrand
-- Customizable Gradiant Presets
 - Easy-to-edit code.
 
 ## Getting Started
@@ -30,35 +26,31 @@ Go to the [Releases](https://github.com/ItsEcstasy/SerialChecker/releases) secti
 
 ## Usage
 
-1. Run the Serial Checker.
-2. Pressing option 1 shows the information.
-2. Pressing option 2 exports the information to a file called `serials.txt`.
-
-## Gradient Themes
-
-The gradient themes let you customize the look and feel. You can also create your own themes using the provided customization options.
-
-## Credits
-
-- [itsjusnix](https://discordapp.com/users/1055323753241911347)
-  - Discord: ItsJusNix
-  - Telegram: ItsEcstasy
-  - Instagram: VanityVillian
+- Run the Serial Checker.
+- Pressing option 1 shows the information.
+- Pressing option 2 exports the information to a file called `serials.txt`.
+- Pressing option 3 shows credits.
+- Pressing option 4 closes the application.
 
 ## License
 
-Licensed under the MIT License - see the [LICENSE](LICENSE) .
-
-## Acknowledgments
-
-- If you rebrand this don't rip my credits out and claim you made it.
-- if youre interested in a custom tool you can contact me.
+Licensed under the MIT License - see the [LICENSE](LICENSE).
 
 ## Customize Your Gradient Theme (Sorce Code Users Only)
 
-### `gradiant.go`
-You can change and custom gradient theme to your liking. Just go to the `utils/gradiant.go` and pick a new preset to use or make one by adding to the list with a name. For example:
+### Gradient Themes `utils/gradiant.go`
+The gradient themes allow you to customize the colors you see. You can create your own themes or use the existing presets.
 
-```Nostalgia = []string{"8611ec", "1ede8e", "5744f0"}```
+To create a new preset, head to utils/gradiant.go and add a new list of colors with a name like this:
 
-Adding this to the list creates a new preset called `Nostalgia` thats purple and green to call this new preset we can go to `Checker.go` and replace `utils.Candy` with `utils.Nostalgia` since we want to use a diffrent preset
+    Nostalgia = []string{"8611ec", "1ede8e", "5744f0"}
+
+Note: It uses hex colors, so use a site like [this](https://htmlcolorcodes.com/color-picker/) to get a hex color (#).
+
+Adding this to the list creates a new preset called **Nostalgia** with purple and green colors. To use this new preset, go to `Checker.go` and replace `utils.Candy` with `utils.Nostalgia` if you want to use a different preset.
+
+## Credits / Contact
+
+  - Discord: ItsJusNix
+  - Telegram: [ItsJusNix](https://t.me/ItsJusNix)
+  - Instagram: [VanityVillian](https://instagram.com/VanityVillian)
