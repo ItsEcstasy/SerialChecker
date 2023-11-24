@@ -53,4 +53,4 @@ Adding this to the list creates a new preset called **Nostalgia** with purple an
 
   - Discord: ItsJusNix
   - Telegram: [ItsJusNix](https://t.me/ItsJusNix)
-  - Instagram: [VanityVillian](https://instagram.com/VanityVillian)
+  - Instagram: [VanityVillian](https://instagram.com/capalot.ecstasy)
