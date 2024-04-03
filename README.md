@@ -11,8 +11,7 @@
 # Source Features
 
 - Customize with preset gradient themes or make your own.
-- Rebrand
-- Easy-to-edit code.
+- Rebrandable
 
 ## Getting Started
 
